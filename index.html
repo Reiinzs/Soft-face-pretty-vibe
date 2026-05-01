@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sensation Stream - Watch Video</title>
+    <style>
+        /* Reset dasar agar tidak ada jarak sisa */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background Hitam Full ke seluruh layar */
+        body, html {
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden; /* Mencegah scroll yang tidak perlu */
+        }
+
+        /* Wadah Kotak Putih (Sesuai Screenshot) */
+        .white-card {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 400px; /* Ukuran ideal di PC */
+            padding: 60px 40px;
+            border-radius: 40px; /* Lengkungan sudut yang dalam sesuai gambar */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Desain Tombol Hitam */
+        .btn-black {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-decoration: none;
+            width: 100%;
+            padding: 18px 0;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 16px;
+            letter-spacing: 1px;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Ikon Play (▶) */
+        .btn-black span {
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        /* Optimasi PC: Efek saat kursor menempel */
+        @media (hover: hover) {
+            .btn-black:hover {
+                background-color: #000000;
+                transform: scale(1.03);
+            }
+        }
+
+        /* Optimasi Mobile: Efek saat ditekan jari */
+        .btn-black:active {
+            transform: scale(0.95);
+        }
+
+        /* Penyesuaian khusus layar sangat kecil */
+        @media (max-width: 380px) {
+            .white-card {
+                padding: 40px 20px;
+            }
+            .btn-black {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="white-card">
+        <a href="https://swe3tcak9.blogspot.com/2026/05/Soft%20face%20pretty%20vibe%20and%20the%20energy%20unmatched.html" class="btn-black" target="_blank" rel="noopener">
+            <span>▶</span> WATCH VIDEO
+        </a>
+    </div>
+
+</body>
+</html>
